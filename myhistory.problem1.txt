@@ -1,0 +1,145 @@
+    1  mkdir TRGN514
+    2  ls
+    3  cd TRGN514
+    4  ls
+    5  mkdir Activity_1
+    6  ls
+    7  passwd
+    8  exit
+    9  mkdir bin
+   10  mkdir script
+   11  mkdir projects
+   12  ls
+   13  mkdir scripts
+   14  ls
+   15  rm script
+   16  rm -r script
+   17  ls
+   18  ls -a
+   19  head
+   20  ls -l
+   21  pwd
+   22  ls
+   23  whereis ls
+   24  history
+   25  history | head
+   26  history | grep ftp
+   27  grep kitten mytext.txt
+   28  wc -l mytext.txt
+   29  wc -l . bashrc
+   30  wc -l .bashrc
+   31  history > myhistory.txt
+   32  less myhistory.txt
+   33  ls
+   34  mkdir TRGN514
+   35  cd TRGN514
+   36  ls
+   37  cd Activity_1/
+   38  exit
+   39  cd TRGN514
+   40  cd Activity_1/
+   41  vi heartrates.txt
+   42  cd ~/Desktop/
+   43  cd ..
+   44  cd ~/Desktop
+   45  cd Desktop
+   46  cd ~
+   47  pwd
+   48  cd ~/Desktop/
+   49  cd ../Desktop/
+   50  cd../..
+   51  cd ../..
+   52  pwd
+   53  cd /Desktop/
+   54  vi
+   55  ls
+   56  cd TRGN514/
+   57  ks
+   58  ls
+   59  cd Activity_1/
+   60  ls
+   61  exit
+   62  cd Desktop/
+   63  echo
+   64  echo "Hwlllo"
+   65  wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
+   66  gunzip Homo_sapiens.GRCh37.75.gtf.gz
+   67  cut -f3 Homo_sapiens.GRCh37.75.gtf | head
+   68  awk '$3 ~ /gene/ { print $2,$1,$4,$5}' Homo_sapiens.GRCh37.75.gtf | head
+   69  ls
+   70  pwd
+   71  cd bin
+   72  cd ..
+   73  pwd
+   74  tree ~
+   75  pwd
+   76  mkdir bin
+   77  pwd
+   78  mkdir assignments
+   79  cd assignments/
+   80  git clone https://github.com/Margery0011/trgn510_assignment1.git
+   81  git clone https://github.com/Margery0011/trgn510_assignment1
+   82  git clone https://github.com/Margery0011/trgn510_assignment1.git
+   83  rmdir trgn510_assignment1/
+   84  git clone https://github.com/Margery0011/trgn510_assignment1
+   85  ls
+   86  git pull fatal: destination path 'trgn510_assignment1' already exists and is not an empty directory.
+   87  git pull https://github.com/Margery0011/trgn510_assignment1
+   88  git pull https://github.com/Margery0011/trgn510_assignment1/
+   89  rm -r trgn510_assignment1
+   90  ls -a
+   91  git clone https://github.com/Margery0011/trgn510_assignment1
+   92  git update
+   93  git --help
+   94  `vim Readme.md
+# Assignment 1
+## Instructions
+The instructions are in this location for my homework
+## Usage
+Here I am using a codeblock:
+```
+   95  pwd
+   96  ls
+   97  `vim Readme.md
+Hello World
+
+:wq!
+.q
+:q
+
+trgn510_assignment1/
+trgn510_assignment1/
+
+   98  vim Readme.md
+   99  cat Readme.md
+  100  git add . -A
+  101  git commit -m "First commit"
+  102  git status
+  103  git init
+  104  git add . -A
+  105  ls
+  106  ls -a
+  107  rm -r.git
+  108  ls
+  109  ls -a
+  110  rm -r .git
+  111  ls -a
+  112  git add . -A
+  113  git status
+  114  git init
+  115  git status
+  116  git add . -A
+  117  git commit -m"First commit"
+  118  git config --global user.email "yutianl@usc.com"
+  119  git config --global user.name "Margery0011"
+  120  git push
+  121  pwd
+  122  ls
+  123  ls -a
+  124  cd trgn510_assignment1/
+  125  pwd
+  126  mkdir problem1
+  127  history
+  128  pwd
+  129  touch myhistory.txt
+  130  history > myhistory.problem1.txt
