@@ -1,0 +1,5 @@
+root     187064   2198  0 15:21 ?        00:00:01 sshd: yutianl [priv]
+yutianl  187070 187064  0 15:21 ?        00:00:00 sshd: yutianl@pts/2
+yutianl  187071 187070  0 15:21 pts/2    00:00:00 -bash
+yutianl  189931 187071  0 16:24 pts/2    00:00:00 ps -ef
+yutianl  189932 187071  0 16:24 pts/2    00:00:00 grep --color=auto yutianl

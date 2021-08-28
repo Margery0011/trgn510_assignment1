@@ -1,0 +1,521 @@
+    1  mkdir TRGN514
+    2  ls
+    3  cd TRGN514
+    4  ls
+    5  mkdir Activity_1
+    6  ls
+    7  passwd
+    8  exit
+    9  mkdir bin
+   10  mkdir script
+   11  mkdir projects
+   12  ls
+   13  mkdir scripts
+   14  ls
+   15  rm script
+   16  rm -r script
+   17  ls
+   18  ls -a
+   19  head
+   20  ls -l
+   21  pwd
+   22  ls
+   23  whereis ls
+   24  history
+   25  history | head
+   26  history | grep ftp
+   27  grep kitten mytext.txt
+   28  wc -l mytext.txt
+   29  wc -l . bashrc
+   30  wc -l .bashrc
+   31  history > myhistory.txt
+   32  less myhistory.txt
+   33  ls
+   34  mkdir TRGN514
+   35  cd TRGN514
+   36  ls
+   37  cd Activity_1/
+   38  exit
+   39  cd TRGN514
+   40  cd Activity_1/
+   41  vi heartrates.txt
+   42  cd ~/Desktop/
+   43  cd ..
+   44  cd ~/Desktop
+   45  cd Desktop
+   46  cd ~
+   47  pwd
+   48  cd ~/Desktop/
+   49  cd ../Desktop/
+   50  cd../..
+   51  cd ../..
+   52  pwd
+   53  cd /Desktop/
+   54  vi
+   55  ls
+   56  cd TRGN514/
+   57  ks
+   58  ls
+   59  cd Activity_1/
+   60  ls
+   61  exit
+   62  cd Desktop/
+   63  echo
+   64  echo "Hwlllo"
+   65  wget http://ftp.ensembl.org/pub/release-75/gtf/homo_sapiens/Homo_sapiens.GRCh37.75.gtf.gz
+   66  gunzip Homo_sapiens.GRCh37.75.gtf.gz
+   67  cut -f3 Homo_sapiens.GRCh37.75.gtf | head
+   68  awk '$3 ~ /gene/ { print $2,$1,$4,$5}' Homo_sapiens.GRCh37.75.gtf | head
+   69  ls
+   70  pwd
+   71  cd bin
+   72  cd ..
+   73  pwd
+   74  tree ~
+   75  pwd
+   76  mkdir bin
+   77  pwd
+   78  mkdir assignments
+   79  cd assignments/
+   80  git clone https://github.com/Margery0011/trgn510_assignment1.git
+   81  git clone https://github.com/Margery0011/trgn510_assignment1
+   82  git clone https://github.com/Margery0011/trgn510_assignment1.git
+   83  rmdir trgn510_assignment1/
+   84  git clone https://github.com/Margery0011/trgn510_assignment1
+   85  ls
+   86  git pull fatal: destination path 'trgn510_assignment1' already exists and is not an empty directory.
+   87  git pull https://github.com/Margery0011/trgn510_assignment1
+   88  git pull https://github.com/Margery0011/trgn510_assignment1/
+   89  rm -r trgn510_assignment1
+   90  ls -a
+   91  git clone https://github.com/Margery0011/trgn510_assignment1
+   92  git update
+   93  git --help
+   94  `vim Readme.md
+   95  # Assignment 1
+   96  ## Instructions
+   97  The instructions are in this location for my homework
+   98  ## Usage
+   99  Here I am using a codeblock:
+  100  ```
+  101  pwd
+  102  ls
+  103  `vim Readme.md
+  104  Hello World
+  105  :wq!
+  106  .q
+  107  :q
+  108  trgn510_assignment1/
+  109  trgn510_assignment1/
+  110  vim Readme.md
+  111  cat Readme.md
+  112  git add . -A
+  113  git commit -m "First commit"
+  114  git status
+  115  git init
+  116  git add . -A
+  117  ls
+  118  ls -a
+  119  rm -r.git
+  120  ls
+  121  ls -a
+  122  rm -r .git
+  123  ls -a
+  124  git add . -A
+  125  git status
+  126  git init
+  127  git status
+  128  git add . -A
+  129  git commit -m"First commit"
+  130  git config --global user.email "yutianl@usc.com"
+  131  git config --global user.name "Margery0011"
+  132  git push
+  133  pwd
+  134  ls
+  135  ls -a
+  136  cd trgn510_assignment1/
+  137  pwd
+  138  mkdir problem1
+  139  history
+  140  pwd
+  141  touch myhistory.txt
+  142  history > myhistory.problem1.txt
+  143  cat myhistory.txt
+  144  head myhistory.txt
+  145  cat history.txt
+  146  cat history
+  147  history
+  148  cat myhistory.problem1.txt 
+  149  cd ..
+  150  pwd
+  151  cd trgn510_assignment1/
+  152  cp /home/yutianl/.bashrc ~/assignments/trgn_assignment1/problem2/.
+  153  cd ~
+  154  ls
+  155  cp ~/myhistory.txt ~assignments/trgn_assignment1/problem2/.
+  156  cp ~/myhistory.txt ~/home/yutianl/assignments/trgn_assignment1/problem2/.
+  157  mkdir ~/home/yutianl/assignments/trgn_assignment1/problem2/.
+  158  mkdir home/yutianl/assignments/trgn_assignment1/problem2/.
+  159  cd home/yutianl/assignments/trgn_assignment1/problem2/.
+  160  cd assignments/
+  161  cd trgn510_assignment1/
+  162  cd
+  163  mkdir problem2
+  164  ls
+  165  cd ~/.bashrc ~/assignments/trgn_assignment1/problem2/.
+  166  cd ~/myhistory.txt ~/assignments/trgn_assignment1/problem2/.
+  167  pwd
+  168  mkdir hi
+  169  ld
+  170  ls
+  171  cd ~/hi ~/assignments/trgn_assignment1/problem2/.
+  172  cp ~/hi ~/assignments/trgn_assignment1/problem2/.
+  173  cp -r ~/hi ~/assignments/trgn_assignment1/problem2/.
+  174  cd ..
+  175  cd problem2
+  176  pwd
+  177  mv problem2 trgn_assignment1
+  178  cd ..
+  179  rmdir problem2
+  180  ls
+  181  cd assignments/
+  182  ls
+  183  cd trgn510_assignment1/
+  184  ls
+  185  cp ~/bashrc ~/assignments/trgn_assignment1/problem2/.
+  186  cp ~/.bashrc ~/assignments/trgn_assignment1/problem2/.
+  187  cd ~
+  188  cp ~/.bashrc ~/assignments/trgn_assignment1/problem2/.
+  189  ls
+  190  cd assignments/trgn_assignment1/problem2/.
+  191  cd assignments/
+  192  cd trgn510_assignment1/
+  193  cd problem2
+  194  pwd
+  195  cp ~/.bashrc ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  196  cd ~
+  197  cp ~/.bashrc ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  198  cd hi
+  199  pwd
+  200  cp /home/yutianl ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  201  cp /home/yutianl/hi ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  202  cp -r /home/yutianl/hi ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  203  cp -r /home/yutianl/hi ~/yutianl/assignments/trgn510_assignment1/problem2/.
+  204  cp -r /home/yutianl/hi ~/assignments/trgn510_assignment1/problem2/.
+  205  ls
+  206  cd ..
+  207  ls
+  208  cd assignments/
+  209  cd trgn510_assignment1/
+  210  ls
+  211  cd problem2
+  212  ls
+  213  ls -la
+  214  cp -r /home/yutianl/.bashrc ~/assignments/trgn510_assignment1/problem2/.
+  215  cp /data/bashrc_sample
+  216  ls
+  217  ls -la
+  218  pwd
+  219  cp /home/yutianl/assignments/trgn510_assignment1/problem2/.bashrc_sample
+  220  cp /home/yutianl/assignments/trgn510_assignment1/problem2/bashrc_sample
+  221  cp /home/yutianl/bashrc_sample
+  222  cd ~
+  223  ls -a
+  224  cp /home/yutianl/bashrc_sample
+  225  cp /home/yutianl/bashrc_sample .
+  226  ls
+  227  ls -a
+  228  vim .bashrc
+  229  cd .bahsrc
+  230  cd .bashrc
+  231  cp assignments/
+  232  cd assignments/
+  233  cd trgn510_assignment1/
+  234  cd problem2
+  235  touch bashrc
+  236  touch bashrc_sample
+  237  ls
+  238  ls -a
+  239  vim .bashrc
+  240  vim bashrc_sample
+  241  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  242  cd ~
+  243  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  244  cd assignments/trgn_assignment1/problem2
+  245  cd assignments/
+  246  cd trgn510_assignment1/
+  247  cd problem2
+  248  ls -al
+  249  mkdir bashrc_sample
+  250  cd bashrc_sample 
+  251  source ~/assignments/trgn_assignment1/problem2/
+  252  cat bashrc_sample 
+  253  source ~/assignments/trgn_assignment1/problem2/.bashrc
+  254  cd ~
+  255  source ~/assignments/trgn_assignment1/problem2/.bashrc
+  256  ls -a
+  257  source ~/yutianl/.bashrc
+  258  vim .bashrc
+  259  source --help
+  260  source home/yutianl
+  261  ls -al
+  262  cat .bashrc
+  263  source ~/yutianl/.bashrc
+  264  ls -a
+  265  pwd
+  266  source /home/yutianl/.bashrc
+  267  source /home/yutianl/assignments/trgn_assignment1/problem2/bashrc_sample
+  268  cd assignments/
+  269  cd re
+  270  cd trgn510_assignment1/
+  271  cd problem2
+  272  ls -al
+  273  sourch bashrc_sample
+  274  source bashrc_sample
+  275  vim bashrc_sample 
+  276  source .bashrc
+  277  vim .bashrc
+  278  source .bashrc
+  279  vim .bashrc
+  280  source. bashrc
+  281  source .bashrc
+  282  vim .bashrc
+  283  source .bashrc
+  284  cd assignments/
+  285  cd trgn510_assignment1/
+  286  vim README.md
+  287  git add . -A
+  288  git commit -m "First commit"
+  289  git push
+  290  ls
+  291  cd problem1/
+  292  ls
+  293  pwd
+  294  cd ..
+  295  mv myhistory.txt/* /home/yutianl/assignments/trgn510_assignment1/problem1
+  296  cd myhistory.txt
+  297  mv myhistory.txt problem1
+  298  ls
+  299  mv myhistory.problem1.txt problem1/
+  300  ls
+  301  cd problem1/
+  302  history
+  303  history > myhistory.problem1.txt 
+  304  cat myhistory.problem1.txt 
+  305  ls
+  306  cd ..
+  307  touch problem2
+  308  ls -la
+  309  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/.
+  310  touch file1
+  311  ls
+  312  cp pwd
+  313  pwd
+  314  cp /home/yutianl/assignments/trgn510_assignment1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  315  cp -r/home/yutianl/assignments/trgn510_assignment1/file1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  316  cp -r /home/yutianl/assignments/trgn510_assignment1/file1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  317  cp --help
+  318  cp /home/yutianl/assignments/trgn510_assignment1/file1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  319  whoami
+  320  mkdir problem2
+  321  rm -r problem2
+  322  ls
+  323  mkdir problem2
+  324  cp /home/yutianl/assignments/trgn510_assignment1/file1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  325  pwd
+  326  cd file1
+  327  ls
+  328  cd problem2
+  329  pwd
+  330  mkdir -p /home/yutianl/assignments/trgn510_assignment1/file1
+  331  mkdir -p /home/yutianl/assignments/trgn510_assignment1/problem2
+  332  cp /home/yutianl/assignments/trgn510_assignment1/file1 ~/home/yutianl/assignments/trgn510_assignment1/problem2/.
+  333  cd../..
+  334  cd ../..
+  335  cd ..
+  336  pwd
+  337  ls -a
+  338  cp /home/yutianl/bashrc ~/assignments/trgn_assignment1/problem2/.
+  339  vim .bahsrc_sample
+  340  vim .bashrc_sample
+  341  source bashrc_sample 
+  342  source .bashrc_sample 
+  343  vim bashrc_sample 
+  344  vim .bashrc_sample 
+  345  source .bashrc_sample 
+  346  ls -a
+  347  rm -r .bahsrc_sample 
+  348  rm -r bashrc_sample 
+  349  ls -a
+  350  cat bashrc
+  351  cat .bashrc
+  352  ls -a
+  353  rm -r bashrc
+  354  ls -al
+  355  source .bashrc_sample
+  356  ls
+  357  ls -a
+  358  source ./.bashrc
+  359  vim .bashrc
+  360  source ~/.bashrc
+  361  source .bashrc
+  362  vim .bashrc
+  363  source .bashrc
+  364  vim .bashrc_sample
+  365  source .bashrc_sample
+  366  vi /etc/environment
+  367  ls -al
+  368  cp ~/assignments/trgn_assignment1/problem2/bashrc_sample ~/.bashrc
+  369  ls
+  370  pwd
+  371  cd assignments
+  372  ls
+  373  cd trgn_assignment1
+  374  cd problem2
+  375  lls
+  376  ls
+  377  cd trgn510_assignment1
+  378  ls
+  379  cd problem2
+  380  ls
+  381  cp ~/assignments/trgn_assignment1/problem2/.bashrc_sample ~/.bashr
+  382  ls -a
+  383  ls
+  384  pwd
+  385  cp /bashrc_sample ~/.bashrc
+  386  cp /.bashrc_sample ~/.bashrc
+  387  ls -a
+  388  cd ..
+  389  ls
+  390  cd yutianl
+  391  ls
+  392  source ~/assignments/trgn_assignment1/problem2/bashrc_sample
+  393  ls
+  394  source ~/trgn_assignment1/problem2/bashrc_sample
+  395  source ~/trgn_assignment1/problem2/.bashrc_sample
+  396  ls -a
+  397  ls
+  398  cd assignments
+  399  ls
+  400  cd trgn510_assignment1
+  401  ls
+  402  cd problem2
+  403  source ./.bashrc_sample
+  404  cp .bashrc_sample ./.bashrc
+  405  cp ~/home/data/vimrc  .
+  406  cd ..
+  407  ls
+  408  cd ..
+  409  ls
+  410  cd ..
+  411  ls
+  412  cd home
+  413  ls
+  414  cd data
+  415  ls
+  416  cd /data/vimrc
+  417  cd data
+  418  ls
+  419  cd ..
+  420  ls
+  421  cp /data/vimrc ./yutianl/assignments/trgn_assignment1/problem2/
+  422  cd yutianl
+  423  ls
+  424  cd assignments
+  425  ls
+  426  cd ..
+  427  ls
+  428  cp /data/vimrc ./yutianl/assignments/trgn510_assignment1/problem2/
+  429  cd ~/home
+  430  cd ~
+  431  ls
+  432  cd /yutianl/assignments/trgn510_assignment1/problem2/
+  433  ls
+  434  cd assignments/trgn510_assignment1/problem2
+  435  cp vimrc ~/.vimrc
+  436  vim /.vimrc
+  437  vi /.vimrc
+  438  ls -a
+  439  cp vimrc ~/.vimrc
+  440  cd ~
+  441  ls
+  442  ls -a
+  443  vi .vimrc
+  444  history
+  445  ls -a
+  446  ls -alt
+  447  mkdir ~/assignments/trgn_assignment1/problem 3/
+  448  pwd
+  449  mkdir assignments/trgn_assignment1/problem 3/
+  450  cd assignments/
+  451  cd trgn510_assignment1/
+  452  ls -a
+  453  mkdir problem3
+  454  ls
+  455  cd problem3
+  456  mkdir problem 3
+  457  rmdir problem 3
+  458  cd ..
+  459  ls
+  460  mkdir problem 3
+  461  ls
+  462  ls -l
+  463  mkdir problem
+  464  rmdir problem
+  465  rmdir 3
+  466  mkdir problem 3/
+  467  ls
+  468  rmdir 3
+  469  rmdir problem
+  470  cd ..
+  471  mkdir ~/trgn510
+  472  rmdir ~/trgn510
+  473  mkdir ~/trgn510_assignment1/problem 3/
+  474  cd home
+  475  cd ../..
+  476  pwd
+  477  ~/assignments/trgn_assignment1/problem 3/
+  478  ~/assignments/trgn510_assignment1/problem 3/
+  479  mkdir /home/assignments/trgn510_assignment1/problem 3/
+  480  ls -a
+  481  cd yutianl
+  482  pwd
+  483  mkdir /home/yutianl/assignments/trgn510_assignment1/problem 3/
+  484  cd assignments/
+  485  cd trgn510_assignment1/
+  486  ls
+  487  ls -al
+  488  rmdir problem3
+  489  cd ../..
+  490  mkdir /home/yutianl/assignments/trgn510_assignment1/problem 3/
+  491  cd 3
+  492  ls
+  493  ped
+  494  pwd
+  495  cd ..
+  496  ls
+  497  rmdir 3
+  498  ls -a
+  499  mkdir /home/yutianl/assignments/trgn510_assignment1/problem 3/
+  500  ls
+  501  mkdir 3
+  502  rmdir 3
+  503  mkdir /home/yutianl/assignments/trgn510_assignment1/'problem 3'/
+  504  ls
+  505  cd assignments/
+  506  cd trgn510_assignment1/
+  507  ls
+  508  ls -l
+  509  rmdir problem
+  510  ls -l
+  511  cd problem 3
+  512  cd 'problem 3'
+  513  pwd
+  514  touch My History.txt
+  515  ls
+  516  rm -r History.txt
+  517  rm -r My
+  518  touch 'My History.txt'
+  519  ls
+  520  history
+  521  history > 'My History.txt'

@@ -92,54 +92,80 @@
    92  git update
    93  git --help
    94  `vim Readme.md
-# Assignment 1
-## Instructions
-The instructions are in this location for my homework
-## Usage
-Here I am using a codeblock:
-```
-   95  pwd
-   96  ls
-   97  `vim Readme.md
-Hello World
-
-:wq!
-.q
-:q
-
-trgn510_assignment1/
-trgn510_assignment1/
-
-   98  vim Readme.md
-   99  cat Readme.md
-  100  git add . -A
-  101  git commit -m "First commit"
-  102  git status
-  103  git init
-  104  git add . -A
-  105  ls
-  106  ls -a
-  107  rm -r.git
-  108  ls
-  109  ls -a
-  110  rm -r .git
-  111  ls -a
+   95  # Assignment 1
+   96  ## Instructions
+   97  The instructions are in this location for my homework
+   98  ## Usage
+   99  Here I am using a codeblock:
+  100  ```
+  101  pwd
+  102  ls
+  103  `vim Readme.md
+  104  Hello World
+  105  :wq!
+  106  .q
+  107  :q
+  108  trgn510_assignment1/
+  109  trgn510_assignment1/
+  110  vim Readme.md
+  111  cat Readme.md
   112  git add . -A
-  113  git status
-  114  git init
-  115  git status
+  113  git commit -m "First commit"
+  114  git status
+  115  git init
   116  git add . -A
-  117  git commit -m"First commit"
-  118  git config --global user.email "yutianl@usc.com"
-  119  git config --global user.name "Margery0011"
-  120  git push
-  121  pwd
-  122  ls
+  117  ls
+  118  ls -a
+  119  rm -r.git
+  120  ls
+  121  ls -a
+  122  rm -r .git
   123  ls -a
-  124  cd trgn510_assignment1/
-  125  pwd
-  126  mkdir problem1
-  127  history
-  128  pwd
-  129  touch myhistory.txt
-  130  history > myhistory.problem1.txt
+  124  git add . -A
+  125  git status
+  126  git init
+  127  git status
+  128  git add . -A
+  129  git commit -m"First commit"
+  130  git config --global user.email "yutianl@usc.com"
+  131  git config --global user.name "Margery0011"
+  132  git push
+  133  pwd
+  134  ls
+  135  ls -a
+  136  cd trgn510_assignment1/
+  137  pwd
+  138  mkdir problem1
+  139  history
+  140  pwd
+  141  touch myhistory.txt
+  142  history > myhistory.problem1.txt
+  143  cat myhistory.txt
+  144  head myhistory.txt
+  145  cat history.txt
+  146  cat history
+  147  history
+  148  cat myhistory.problem1.txt 
+  149  cd ..
+  150  pwd
+  151  cd trgn510_assignment1/
+  152  cd assignments/
+  153  cd trgn510_assignment1/
+  154  vim README.md
+  155  git add . -A
+  156  git commit -m "First commit"
+  157  git push
+  158  ls
+  159  cd problem1/
+  160  ls
+  161  pwd
+  162  cd ..
+  163  mv myhistory.txt/* /home/yutianl/assignments/trgn510_assignment1/problem1
+  164  cd myhistory.txt
+  165  mv myhistory.txt problem1
+  166  ls
+  167  mv myhistory.problem1.txt problem1/
+  168  ls
+  169  cd problem1/
+  170  history
+  171  history > myhistory.problem1.txt 
